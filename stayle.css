@@ -1,0 +1,65 @@
+*{
+    background-color: black;
+}
+header nav a{
+    text-decoration: none;
+    color: green;
+    margin: 3%;
+}
+header nav a:focus{
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+    color: green;
+}
+.actif{
+    color: red;
+}
+section{
+    height: 28.3rem;
+    align-content: center;
+}
+.carding{
+    margin-left: 42%;
+    margin-top: 13rem;
+
+}
+input{
+    border-color: green;
+    color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+button{
+    background-color: green;
+    color: black;
+}
+h1{
+    color: green;
+}
+/*.contune{
+    margin-left: 550px;
+    margin-top: 300px;
+
+}*/
+button{
+    border-radius: 5px;
+    width: 5.5rem;
+    height: 2.5rem;
+}
+/*.contune .bu{
+    margin-left: 15px;
+}*/
+footer{
+    height: 6rem;
+    color: green;
+    width: auto;
+}
+footer h4{
+    text-align: center;
+}
+@media screen and (max-width=400px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+}
